@@ -1,0 +1,54 @@
+/* Perpustakaan - tema ringan */
+body {
+  background-color: #f4f6fb;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: #1f2937;
+}
+
+/* Navbar lebih halus */
+.navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .06);
+}
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: .3px;
+}
+
+/* Kontainer utama terasa seperti kartu */
+main.container > .table,
+main.container > .d-flex,
+main.container > form {
+  /* spacing hanya */
+}
+
+/* Kartu pembungkus tabel */
+.table-wrap {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(17, 24, 39, .06);
+  padding: 1rem;
+}
+
+/* Tabel */
+.table td, .table th { vertical-align: middle; }
+.table thead th {
+  background: #f9fafb;
+  color: #374151;
+  font-weight: 600;
+  border-bottom: 2px solid #e5e7eb;
+}
+.table-hover tbody tr:hover { background-color: #f3f6ff; }
+
+/* Tombol aksi lebih compact */
+.btn-sm { border-radius: 8px; }
+.btn { border-radius: 8px; }
+.btn-warning { color: #1f2937; }
+
+/* Form pencarian */
+.input-group .form-control { border-radius: 8px 0 0 8px; }
+
+/* Judul halaman */
+h3 { font-weight: 600; color: #111827; }
+
+/* Footer */
+footer { color: #9ca3af; }

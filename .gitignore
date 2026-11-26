@@ -1,0 +1,10 @@
+# Screenshot hasil praktikum IKUT di-commit (bukti tugas)
+
+# File sistem & editor
+Thumbs.db
+.DS_Store
+*.swp
+
+# Lingkungan lokal (jangan simpan kredensial)
+.env
+config/config.local.php
